@@ -7,6 +7,7 @@ const lottieScript = fs.readFileSync(require.resolve('lottie-web/build/player/lo
 new Function(lottieScript)();
 
 /**
+ * Lottie
  * @type {import('lottie-web').LottiePlayer}
  */
 module.exports = lottie
