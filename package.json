@@ -1,6 +1,6 @@
 {
   "name": "lottie-web-node",
-  "version": "1.0.1",
+  "version": "1.2.0",
   "description": "Make lottie-web available to node.js using jsdom",
   "main": "index.js",
   "scripts": {
@@ -23,7 +23,6 @@
   },
   "homepage": "https://github.com/Otatoge/lottie-node#readme",
   "dependencies": {
-    "canvas": "^2.10.1",
     "jsdom": "20.0.0",
     "jsdom-global": "3.0.2",
     "lottie-web": "^5.9.6"
