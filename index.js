@@ -10,4 +10,4 @@ new Function(lottieScript)();
  * Returns an object in lottie-web
  * @returns {import('lottie-web').LottiePlayer}
  */
-module.exports = () => lottie
+module.exports = () => {lottie, window}
