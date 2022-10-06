@@ -8,6 +8,6 @@ new Function(lottieScript)();
 
 /**
  * Returns an object in lottie-web
- * @returns {import('lottie-web').LottiePlayer}
+ * @returns {{lottie: import('lottie-web').LottiePlayer, window: Window & typeof globalThis}}
  */
 module.exports = () => {lottie, window}
